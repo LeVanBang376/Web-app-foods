@@ -1,0 +1,64 @@
+.backgroundColor {
+    background-color: white;
+    box-shadow: 0 0.5px 5px 1px #999999;
+}
+
+.brand {
+    color: orange !important;
+    font-size: 25px !important;
+}
+
+.brand:hover {
+    color: red !important;
+    scale: 1.1;
+}
+
+.linkCss {
+    color: gray;
+    text-decoration: none;
+}
+
+.linkCss:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 576px) {
+    .login-mobile {
+        display: none !important;
+    }
+
+    .login-icon {
+        display: block;
+        position: absolute;
+        top: 14.25px;
+        right: 12px;
+    }
+
+    .changeJustifyContent {
+        justify-content: flex-start !important;
+        gap: calc(50% - 100px);
+    }
+}
+
+@media only screen and ((min-width: 576px) and (max-width: 992px)) {
+    .login-icon {
+        display: none;
+    }
+
+    .login-mobile {
+        position: absolute;
+        top: 19.75px;
+        right: 12px;
+    }
+
+    .changeJustifyContent {
+        justify-content: flex-start !important;
+        gap: calc(50% - 100px);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .login-icon {
+        display: none;
+    }
+}
