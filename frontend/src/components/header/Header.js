@@ -41,7 +41,7 @@ export default function Header() {
 
                 <Row className=''>
                     <Col>
-                        <Link className="linkCss ps-1 pe-1 login-mobile" to="/login">Đăng nhập</Link>
+                        <Link className="linkCss ps-1 pe-1 login-mobile" to="/signin">Đăng nhập</Link>
                         <IconContext.Provider value={{ className: "login-icon", size: 35 }}>
                             <>
                                 <BsPersonCircle />

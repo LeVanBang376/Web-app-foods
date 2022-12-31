@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Start date: 29/12/2022
+--------------------Quản lý dự án---------------------
+            Tên công việc                                       Thời gian (ngày)                      Công việc trước
+I. Giao diện cho người dùng (đăng nhập và chưa đăng nhập)              10                                    
+    1. Header, đăng nhập, đăng ký                                      3                                     - 
+    2. Các components cần thiết cho giao diện người dùng               10                                    -               
+    3. Trang các món ăn và các trang liên quan                         4                                     1 (FS)       
+    4. Trang liên hệ, giới thiệu                                       1                                     3 (FS)
+    5. Các trang như thay đổi thông tin cá nhân, thay đổi              1                                     4 (FS)
+    mật khẩu
+    6. Footer                                                          1                                     5 (FS)
+II. Giao diện cho người quản trị
+
+
+----------------------Hiện thực-----------------------
+- Ngày 1 (29/12/2022): (Công việc 1) Khởi tạo dự án, làm được 50% header
+- Ngày 2 (30/12/2022): (Công việc 1) Làm được 90% header, 50% đăng nhập, chưa làm được đăng ký
+- Ngày 3 (31/12/2022): (Công việc 1) Làm được 90% header, 90% đăng nhập, 90% đăng ký, trang điều khoản
+  Hoàn thành công việc 1, header, đăng nhập, đăng ký và điều khoản sẽ tiếp tục hoàn thiện trong quá trình làm sau này.
+ 
