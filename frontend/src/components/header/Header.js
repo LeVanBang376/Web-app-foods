@@ -3,14 +3,16 @@ import './Header.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Col from 'react-bootstrap/esm/Col';
 import Row from 'react-bootstrap/esm/Row'
 import Button from 'react-bootstrap/Button';
 import { IconContext } from "react-icons";
-import { BsSearch, BsPersonCircle } from 'react-icons/bs'
+import { BsSearch, BsPersonCircle, BsTelephone } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+import Dropdown from 'react-bootstrap/Dropdown';
 export default function Header() {
     return (
         <Navbar className='backgroundColor' expand="lg">
@@ -39,7 +41,7 @@ export default function Header() {
                     </Row>
                 </Navbar.Collapse>
 
-                <Row className=''>
+                {/* <Row className=''>
                     <Col>
                         <Link className="linkCss ps-1 pe-1 login-mobile" to="/signin">Đăng nhập</Link>
                         <IconContext.Provider value={{ className: "login-icon", size: 35 }}>
@@ -47,6 +49,27 @@ export default function Header() {
                                 <BsPersonCircle />
                             </>
                         </IconContext.Provider>
+                    </Col>
+                </Row> */}
+                <Row className=''>
+                    <Col>
+                        <NavDropdown title="levanbang376" id="basic-nav-dropdown" className="login-mobile" align="end" >
+                            <NavDropdown.Item href="/setting">Cài đặt</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.4">
+                                Đăng xuất
+                            </NavDropdown.Item>
+                        </NavDropdown>
+                        <NavDropdown
+                            title={<img src='https://upload.wikimedia.org/wikipedia/commons/f/fe/Son_Tung_M-TP_1_%282017%29.png' width="35px" height="35px" />}
+                            id="basic-nav-dropdown" className="avatarContainer" align="end"
+                        >
+                            <NavDropdown.Item href="#action/3.1">Cài đặt</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.4">
+                                Đăng xuất
+                            </NavDropdown.Item>
+                        </NavDropdown>
                     </Col>
                 </Row>
             </Container>

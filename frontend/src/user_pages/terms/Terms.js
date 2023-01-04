@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/esm/Container'
 import { Link } from 'react-router-dom'
 export default function Terms() {
     return (
-        <Container className='formContainer'>
+        <Container className='termsContainer'>
             <h2 className='text-center mb-3'>Điều khoản</h2>
             <ol>
                 <strong>

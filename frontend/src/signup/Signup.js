@@ -27,7 +27,7 @@ export default function Signup() {
     };
 
     return (
-        <Container className='formContainer'>
+        <Container className='signupContainer'>
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
                 <h2 className='text-center mb-3'>Đăng ký tài khoản</h2>
 

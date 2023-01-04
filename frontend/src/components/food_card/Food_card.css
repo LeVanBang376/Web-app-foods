@@ -1,0 +1,39 @@
+.foodCardContainer {
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.foodCardContainer:hover {
+    scale: 1.03;
+}
+
+.foodCardContainer .imageContainer {
+    width: 100%;
+    object-fit: cover;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 5/3;
+}
+
+.contentContainer .contentStyle {
+    max-height: 4.8rem;
+    line-height: 1.6rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 3;
+}
+
+.contentContainer .dateStyle {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.dateStyle span {
+    font-weight: bold;
+}
